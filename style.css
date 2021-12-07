@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(background.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    overflow: visible;
+    background: #fff url('https://cdn.glitch.me/caf6dc41-2a0d-40a8-8047-3d25069e99b2%2FIndigo%20and%20Cyan%20Futuristic%20Neon%20E-sports%20YouTube%20Intro.gif?v=1637952266730') no-repeat center center;
+}
+
+h1 {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: poppins;
+}
